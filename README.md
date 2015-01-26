@@ -8,4 +8,6 @@ This course is an introductory programming class, appropriate for students with 
 # Getting Started
 For class information, including syllabus and helpful links, check out the [Wiki](https://github.com/IDMNYU/Creative-Coding-Grad-Spring-2015/wiki).  
 Feel free to download or clone this repo:
-```git clone https://github.com/IDMNYU/Creative-Coding-Grad-Spring-2015.git```
+```
+git clone https://github.com/IDMNYU/Creative-Coding-Grad-Spring-2015.git
+```
