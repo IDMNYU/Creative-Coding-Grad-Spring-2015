@@ -3,7 +3,7 @@
 
 Department of Technology, Culture and Society (TCS)
 
-# Course Outline DM 6063 Creative Coding
+# DM 6063 Creative Coding
 
 **Spring 2015**
 
