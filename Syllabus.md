@@ -83,7 +83,7 @@ Course requirements include small weekly projects (studies), a project proposal,
 
 * Attendance and participation (25%). More than three unexcused absences will result in a decreased letter grade.
 
-* Weekly studies published online on the day it is due (35%).	
+* Weekly homework studies published online on the day it is due (35%).	
 
 * IDM coursework documentation using wordpress on [http://sites.bxmc.poly.edu](http://sites.bxmc.poly.edu/) 	or on Github.* (5%)
 
@@ -129,26 +129,28 @@ This schedule is subject to change depending on the interests and pace of the cl
 ## Part I
 
 **Week 1 (1/29):** Introduction to the class. Download and install required software. Variables, simple data types, math. Conditionals, loops, and simple algorithms. Basic 2D drawing.	
-
-**Week 2 (2/5):** Drawing continued.  Curves and Color.  Demystifying math.
 - **Reading**: Learning Processing, ch1-3.
-- **Assignment (due before class):** Sol Lewitt drawing exercise. 
+- **Assignment (due before following class):** Sol Lewitt drawing exercise.
 
-**Week 3 (2/12):** Vectors and Forces: A look at simple systems used when creating motion and animation.
+**Week 2 (2/5):** Variables continued.  Conditionals & loops.  Demystifying math.
+- **Reading**: Learning Processing, ch4-7.
+- **Assignment (due before following class):** TBD.
+
+**Week 3 (2/12):** Arrays & collections. Visualizing data.
 - **Reading**: Nature of Code, Introduction, Chapters 1&2
-- **Assignment (due before class):** TBD
+- **Assignment (due before following class):** Sol Lewitt drawing exercise.
 
-**Week 4 (2/19):** Oscillation: Waves, repetition, and sound.
+**Week 4 (2/19):** Vectors and Forces: A look at simple systems used when creating motion and animation.
 - **Reading**: Nature of Code, Chapter 3
-- **Assignment (due before class):** TBD
+- **Assignment (due before following class):** TBD
 
-**Week 5 (2/26):** Particle Systems and getting started with Object Oriented Programming
+**Week 5 (2/26):** Oscillation: Waves, repetition, and sound.
+- **Reading**: Learning Processing, Chapter 8
+- **Assignment (due before following class):** TBD
+
+**Week 6 (3/5):** Particle Systems and getting started with Object Oriented Programming
 - **Reading**: Nature of Code, Chapter 4
-- **Assignment (due before class):** TBD;
-
-**Week 6 (3/5):** Sensory input and physical computing: Arduino, sensors, and HCI. Serial communication.
-- **Reading**: Programming Interactivity, Chapter 7
-- **Assignment (due before class):** TBD
+- **Assignment (due before following class):** TBD;
 
 **Week 7 (3/12):** Project proposals.
 - **Assignment:** Final project proposal;
@@ -159,27 +161,26 @@ This schedule is subject to change depending on the interests and pace of the cl
 
 **Week 8 (3/26):** Object oriented programming continued. Introduction to Openframeworks.
 - **Reading**: Nature of Code, Chapter 5; Programming Interactivity, Chapter 5; Introduction to Openframeworks; from ofBook: [http://interactiveart.io/ofbook/](http://interactiveart.io/ofbook/) ; Jeff Krause’s [intro to pointers](http://www.jeffish.com/teaching/intermediate-of/cpp-pointers.html)
-- **Assignment:** TBD
+- **Assignment:** (due before following class)
 
-**Week 9 (4/2):** Getting things to talk: Real-time communication with websockets, openframeworks, and javascript. Clients and servers.  Using [Spacebrew](http://docs.spacebrew.cc/). 
+**Week 9 (4/2) (3/26):** Sensory input and physical computing: Arduino, sensors, and HCI. Serial communication.
+- **Reading**: Programming Interactivity, Chapter 7
+- **Assignment (due before following class):** TBD
+
+**Week 10 (4/9):** Getting things to talk: Real-time communication with websockets, openframeworks, and javascript. Clients and servers.  Using [Spacebrew](http://docs.spacebrew.cc/). 
 - **Reading**: Programming Interactivity, Chapter 12
-- **Assignment (due before class)::** TBD
+- **Assignment (due before following class)::** TBD
 
-**Week 10 (4/9):** Integrating data from sensors, services, and streams: More web services, javascript, C++, and/or Java.
+**Week 11 (4/16):** Integrating data from sensors, services, and streams: More web services, javascript, C++, and/or Java.
 - **Reading**: TBD
-- **Assignment (due before class):** TBD
+- **Assignment (due before following class):** TBD
 
-**Week 11 (4/16):** Introduction to computer vision: Implementations of OpenCV in Processing/Openframeworks.
+**Week 12 (4/23):** Introduction to computer vision: Implementations of OpenCV in Processing/Openframeworks.
 - **Reading**: Programming Interactivity, Chapter 14
-- **Assignment (due before class):** TBD
+- **Assignment (due before following class):** TBD
 
-**Week 12 (4/23):** Video access and non-linear narrative.
+**Week 13 (4/30):** Video access and non-linear narrative.
 - **Reading**: TBD
-- **Assignment:** TBD
-
-**Week 13 (4/30):** Interactive performance systems;
-- **Reading**: TBD
-- **Assignment:** TBD
 
 **Week 14 (5/7):** **Guest speaker; **Final Project Meetings, general debugging, guest speaker.
 
