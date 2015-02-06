@@ -30,8 +30,7 @@ strokeWeight(2);
 //init my variables
 int rows = 100; //rows
 int cols = 2;  //cols
-int i = 0; //index for x coords
-//int j = 0; //index for y coords
+int i = 0;
 
 //create a 2d array for x1,y1 coordinates
 float [][] points = new float [rows][cols];
