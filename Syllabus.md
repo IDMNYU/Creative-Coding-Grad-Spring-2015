@@ -133,12 +133,12 @@ This schedule is subject to change depending on the interests and pace of the cl
 - **Assignment (due before following class):** Sol Lewitt drawing exercise.
 
 **Week 2 (2/5):** Variables continued.  Conditionals & loops.  Demystifying math.
-- **Reading**: Learning Processing, ch4-7.
-- **Assignment (due before following class):** TBD.
+- **Reading**: Learning Processing, ch4-7, 9.
+- **Assignment (due before following class):** Sol Lewitt drawing exercise (extended).
 
 **Week 3 (2/12):** Arrays & collections. Visualizing data.
 - **Reading**: Nature of Code, Introduction, Chapters 1&2
-- **Assignment (due before following class):** Sol Lewitt drawing exercise.
+- **Assignment (due before following class):** TBD
 
 **Week 4 (2/19):** Vectors and Forces: A look at simple systems used when creating motion and animation.
 - **Reading**: Nature of Code, Chapter 3
