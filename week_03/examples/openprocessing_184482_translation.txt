@@ -1,0 +1,38 @@
+Pseudocode / english translation of 
+http://openprocessing.org/sketch/184482
+by Jasmine Rajavadee
+
+setup program.
+  create a window size 500 width, 500 height
+  draw smoothly
+  set frameRate to 10 fps
+end setup
+
+start draw loop
+  clear the background to teal
+  for each integer c from 0 to 599, loop:
+    for each integer i from 0 to 599, loop:
+      set stroke color to yellow
+      set fill color to red = i, green = 50, and blue = c
+      draw a circle at position c,y with a diameter of 10
+      add assign 25 to i
+    end for
+    add assign 25 to c
+  end for
+
+  for each integer l from 0 to 499, loop:
+    create local float variable x with value btwn 0 & 300
+    create local float variable y with value btwn 0 & 300
+    set stroke weight to random value btwn 1 & 3
+    set stroke color to yellow
+    draw a yellow line, from point l,x to l,y
+    add assign 5 to l
+  end for
+
+  for each integer w from 500 to 1, loop:
+    set stroke color to tan
+    set stroke weight to random value btwn 1 & 3
+    draw tan line from 250,-50 to w,500
+    subtract assign 10
+  end for
+end draw loop
