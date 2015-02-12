@@ -1,3 +1,128 @@
+/* ************************************
 From Sol Lewitt's Wall Drawing #305:
 
 The Eighth point is located halfway between the two points where an arc with its center at the first point and with a radius equal to the distance between the first and the seventh points would cross a line from the upper right corner to a point halfway between the midpoint of the bottom side and the lower right corner.
+————————————————————————————————————————
+Explanation from MoCA:
+http://www.massmoca.org/lewitt/walldrawing.php?id=305
+
+Wall Drawing 305 is composed of one hundred random specific points that are determined by the draftsman. The points are random in that they may be placed anywhere on the wall. The draftsman uses Sol LeWitt’s vocabulary and geometric lexicon to guide the mapping of the points. This lexicon includes the corners, midpoints and center of each wall, which serve as reference points that are connected and traversed by lines and arcs. The one hundred points are specific in that they are created at the meeting of the junctures of these formal elements. As the draftsman maps out each generated point, he or she writes a description of how he or she arrived at that point next to it. This allows the viewers to trace the process of the placement of the points.
+
+Wall Drawing 305 is one of a series of drawings in which LeWitt experimented with textual instructions that direct the draftsman to construct shapes on the wall. Called ‘location’ drawings, these works are done in black pencil with geometric figures emphasized in crayon, foregrounding the process of drawing as a problem-solving mechanism.
+
+http://www.massmoca.org/lewitt/walldrawing.php?id=305
+
+************************************ */
+
+/* ************************************
+The Eighth point is located halfway between the two points where an arc with its center at the first point and with a radius equal to the distance between the first and the seventh points would cross a line from the upper right corner to a point halfway between the midpoint of the bottom side and the lower right corner.
+
+
+The Eighth point is located halfway between the two points of an arc
+
+the arc has its center at the 1st point 
+the x value of the arc must be 75%-100% of width, y can be random
+
+the arc’s radius = dist pt1 b/t pt7
+
+the arc can cross the line at any time
+
+the line goes from 0,width to .75width, 100% height 
+
+
+
+arc with its center at the first point and with a 
+radius equal to the distance between the first and the seventh points
+
+XXX - would cross a line from the upper right corner to a point halfway between the midpoint of the bottom side and the lower right corner.
+************************************
+
+create the line
+
+generate 100 random pts
+
+rewrite pt1 to a pt along the line
+
+
+create an arc 
+origin = pt1 1x,1y
+
+arc rad = abs(p1 - pt7)
+
+start -3.14 rad
+end 7rad
+
+
+
+arc(a, b, c, d, start, stop)
+a	float: x-coordinate of the arc's ellipse
+b	float: y-coordinate of the arc's ellipse
+c	float: width of the arc's ellipse by default
+d	float: height of the arc's ellipse by default
+start	float: angle to start the arc, specified in radians
+stop	float: angle to stop the arc, specified in radians
+
+
+
+line(
+
+create an 2d array to store coords of 100 random pts
+[i] x1, y1
+
+go to [8]
+
+*/
+
+
+arc();
+
+
+
+
+
+
+// GLOBALS
+//size(500,500); //test
+size(displayWidth, displayHeight); //wall = viewport
+background(#FAF5ED); //off-white (aka wall-colored)
+smooth(); //anti-alias
+
+stroke(#777777, 25); //graphite-ish, 25alpha
+strokeWeight(1);
+
+
+
+/*
+
+
+//init my variables
+int rows = 50; //rows
+int cols = 2;  //cols
+int i = 0; //index for x coords
+int j = 0; //index for y coords
+
+//create a 2d array of x1,y1 coordinates
+float [][] points = new float [rows][cols];
+// float [][] points = new float[50][2];
+
+
+// forLoop to create 50 points at random locations
+  for(i=0; i<50; i++) {
+    points[i][0] = random(width-50);  // puts a random int<width-50 in row i, col1 (x coord.)
+    points[i][1] = random(height-50); //puts a random int<height-50 in row i col2 (y coord.)
+    println(points[i][0] + ",", points[i][1]); //coord log
+    //point(points[i][0],points[i][1]); //"place fifty points at random" test
+  }
+  
+
+// use a nested forLoop to traverse the matrix
+for(i=0; i<50; i++) {    // loop to move thru the matrix vertically
+   for(j=0; j<50; j++) {   // loop to move thru the matrix horizontally
+     println(points[i][0]+", ", points[i][1]+ " x ", points[j][0]+ ", ", points[j][1]); //coord log
+     line(points[i][0], points[i][1], points[j][0], points[j][1]); // draws line from each point to every other point
+   }
+}
+
+
+
+
