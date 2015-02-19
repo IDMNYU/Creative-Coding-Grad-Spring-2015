@@ -18,7 +18,7 @@ void draw() {
 // GLOBALS
 background(#FAF5ED); //off-white (aka wall-colored)
 smooth(); //anti-alias
-
+  
 stroke(#777777, 25); //graphite-ish, 25alpha
 strokeWeight(1);
 //line(0, 0, width, height); //test diagonal
@@ -53,3 +53,4 @@ for(i=0; i<50; i++) {    // loop to move thru the array
 }
 
 } //END draw
+
