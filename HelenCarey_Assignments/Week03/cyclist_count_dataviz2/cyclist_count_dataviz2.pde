@@ -98,7 +98,7 @@ void draw() {
   fill(255);
   text("Cyclist Count by Year", 50, 75); 
   textSize(12);
-  text("The tires stacks are labeled from top (#1) to bottom (#7). The height of each tire represents the proportion of the total cyclist count for the year.", 50, 110);
+  text("The tire stacks are labeled from top (#1) to bottom (#7). The height of each tire represents the proportion of the total cyclist count for the year.", 50, 110);
 
   
   println(headers);
