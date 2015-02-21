@@ -138,17 +138,17 @@ This schedule is subject to change depending on the interests and pace of the cl
 
 **Week 3 (2/12):** Arrays & collections. Visualizing data.
 - **Reading**: Nature of Code, Introduction, Chapters 1&2
-- **Assignment (due before following class):** TBD
+- **Assignment (due before following class):** In Processing, create a unique data visualization using the NYC Bicycle data set from class.  Post your visualization to the class page on OpenProcessing as well as your github repo.
 
 **Week 4 (2/19):** Vectors and Forces: A look at simple systems used when creating motion and animation.
 - **Reading**: Nature of Code, Chapter 3
-- **Assignment (due before following class):** TBD
+- **Assignment (due before following class):** Extend the Nature of Code example we went over in class (Examples->Books->chp2_forces->NOC_2_4_forces_friction.pde) to include interaction with keyboard and/or mouse, as well as Perlin noise and vectors.
 
 **Week 5 (2/26):** Oscillation: Waves, repetition, and sound.
 - **Reading**: Learning Processing, Chapter 8
 - **Assignment (due before following class):** TBD
 
-**Week 6 (3/5):** Particle Systems and getting started with Object Oriented Programming
+**Week 6 (3/5):** Particle Systems and getting started with Object Oriented Programming.
 - **Reading**: Nature of Code, Chapter 4
 - **Assignment (due before following class):** TBD;
 
