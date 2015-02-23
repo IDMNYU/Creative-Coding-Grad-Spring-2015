@@ -150,10 +150,10 @@ This schedule is subject to change depending on the interests and pace of the cl
 
 **Week 6 (3/5):** Particle Systems and getting started with Object Oriented Programming.
 - **Reading**: Nature of Code, Chapter 4
-- **Assignment (due before following class):** TBD;
+- **Assignment (due before following class):** Final project proposal;
 
 **Week 7 (3/12):** Project proposals.
-- **Assignment:** Final project proposal;
+- **Assignment:** No assignment due;
 
 **(3/19):** No class. Spring recess Monday, March 16, 2015 -Sunday, March 22, 2015
 
