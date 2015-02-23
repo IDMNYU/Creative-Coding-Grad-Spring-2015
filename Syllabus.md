@@ -217,3 +217,15 @@ Performance and attendance of the student has been less than adequate. Work is l
 
 Performance and attendance of the student has been such that course requirements have not been met. Work shows no overall understanding of the course material on many levels or either a severe lack of interest. 
 
+# Moses Statement of Disability
+
+If you are student with a disability who is requesting accommodations, please 
+
+contact New York University’s Moses Center for Students with Disabilities at 212-
+
+998-4980 or mosescsd@nyu.edu.  You must be registered with CSD to receive 
+
+accommodations.  Information about the Moses Center can be found at 
+
+www.nyu.edu/csd. The Moses Center is located at 726 Broadway on the 2nd floor.
+
