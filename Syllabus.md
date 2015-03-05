@@ -146,21 +146,22 @@ This schedule is subject to change depending on the interests and pace of the cl
 
 **Week 5 (2/26):** Oscillation: Waves, repetition, and sound.
 - **Reading**: Learning Processing, Chapter 8
-- **Assignment (due before following class):** TBD
+- **Assignment (due before following class):** Choose one of two possible assignments.  Option 1: Redesign the clock.  You must use trigonometry and Processing's time functions to design a novel clock.  See week_05->second_clock for inspiration.  Option 2: Write a Processing Sketch using the Minim Library in Processing.  I encourage you to go beyond the simple examples in Processing->File->Examples .  Try creating sounds and drawing the output of those sounds.  Use interaction with the keyboard and the mouse like we've done in class.  
 
 **Week 6 (3/5):** Particle Systems and getting started with Object Oriented Programming.
-- **Reading**: Nature of Code, Chapter 4
-- **Assignment (due before following class):** Final project proposal;
+- **Reading**: Nature of Code, Chapter 4, 5
+- **Assignment:** Final project proposal (written and presentation);
 
 **Week 7 (3/12):** Project proposals.
-- **Assignment:** No assignment due;
+- **Reading:** Introduction to Openframeworks; from ofBook: [http://interactiveart.io/ofbook/](http://interactiveart.io/ofbook/) ;
+- **Assignment:** No code assignment; Please make sure you have XCode (Mac) or VisualStudio (Windows) installed on your computer, as well as [OpenFrameworks](http://openframeworks.cc/download/);
 
 **(3/19):** No class. Spring recess Monday, March 16, 2015 -Sunday, March 22, 2015
 
 ## Part II
 
 **Week 8 (3/26):** Object oriented programming continued. Introduction to Openframeworks.
-- **Reading**: Nature of Code, Chapter 5; Programming Interactivity, Chapter 5; Introduction to Openframeworks; from ofBook: [http://interactiveart.io/ofbook/](http://interactiveart.io/ofbook/) ; Jeff Krause’s [intro to pointers](http://www.jeffish.com/teaching/intermediate-of/cpp-pointers.html)
+- **Reading**: Programming Interactivity, Chapter 5; Jeff Krause’s [intro to pointers](http://www.jeffish.com/teaching/intermediate-of/cpp-pointers.html)
 - **Assignment:** (due before following class)
 
 **Week 9 (4/2) (3/26):** Sensory input and physical computing: Arduino, sensors, and HCI. Serial communication.
