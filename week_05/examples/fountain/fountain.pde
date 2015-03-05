@@ -29,8 +29,8 @@ void draw() {
     rotate(rotationAngle);
     
     float s = 100;
-    float xPosMax =  random(s, height*.35);
-    if (random(1)>.9) xPosMax = random(s,height*.45);
+    float xPosMax =  random(s, height*0.35);
+    if (random(1)>0.9) xPosMax = random(s,height*.45);
     
     float xPosMin = s + random(-10,10);
     
