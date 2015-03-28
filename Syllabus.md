@@ -161,8 +161,8 @@ This schedule is subject to change depending on the interests and pace of the cl
 ## Part II
 
 **Week 8 (3/26):** Object oriented programming continued. Introduction to Openframeworks.
-- **Reading**: Programming Interactivity, Chapter 5; Jeff Krause’s [intro to pointers](http://www.jeffish.com/teaching/intermediate-of/cpp-pointers.html)
-- **Assignment:** (due before following class)
+- **Reading**: Programming Interactivity, Chapter 5; Jeff Krause’s [intro to pointers](http://www.jeffish.com/teaching/intermediate-of/cpp-pointers.html); [oFBook](http://openframeworks.cc/ofBook/chapters/cplusplus_basics.html);
+- **Assignment: (due before following class):** Openframeworks app, see class notes for more details.
 
 **Week 9 (4/2) (3/26):** Sensory input and physical computing: Arduino, sensors, and HCI. Serial communication.
 - **Reading**: Programming Interactivity, Chapter 7
