@@ -164,17 +164,17 @@ This schedule is subject to change depending on the interests and pace of the cl
 - **Reading**: Programming Interactivity, Chapter 5; Jeff Krause’s [intro to pointers](http://www.jeffish.com/teaching/intermediate-of/cpp-pointers.html); [oFBook](http://openframeworks.cc/ofBook/chapters/cplusplus_basics.html);
 - **Assignment: (due before following class):** Openframeworks app, see class notes for more details.
 
-**Week 9 (4/2) (3/26):** Sensory input and physical computing: Arduino, sensors, and HCI. Serial communication.
+**Week 9 (4/2) (3/26):** Sensory input and physical computing: Arduino, sensors, and HCI. Serial communication/Firmata.
 - **Reading**: Programming Interactivity, Chapter 7
-- **Assignment (due before following class):** TBD
+- **Assignment (due before following class):** Project status blog post.  This is a writing assignment, however please include image or video examples of your prototyping work so far.  Try adapting the code you wrote last week in openframeworks for Processing.  Describe some of the strengths of each approach and why you might want to use one tool over another for your project. 
 
-**Week 10 (4/9):** Getting things to talk: Real-time communication with websockets, openframeworks, and javascript. Clients and servers.  Using [Spacebrew](http://docs.spacebrew.cc/). 
-- **Reading**: Programming Interactivity, Chapter 12
+**Week 10 (4/9):** Openframeworks recap / Introduction to creative coding in javascript with P5js.
+- **Reading**: [Processing transition to P5js](https://github.com/processing/p5.js/wiki/Processing-transition)
 - **Assignment (due before following class)::** TBD
 
-**Week 11 (4/16):** Integrating data from sensors, services, and streams: More web services, javascript, C++, and/or Java.
-- **Reading**: TBD
-- **Assignment (due before following class):** TBD
+**Week 11 (4/16):** Getting things to talk: Real-time communication with websockets, openframeworks, and javascript. Clients and servers.  Using [Spacebrew](http://docs.spacebrew.cc/). 
+- **Reading**: Programming Interactivity, Chapter 12
+- **Assignment (due before following class)::** TBD
 
 **Week 12 (4/23):** Introduction to computer vision: Implementations of OpenCV in Processing/Openframeworks.
 - **Reading**: Programming Interactivity, Chapter 14
