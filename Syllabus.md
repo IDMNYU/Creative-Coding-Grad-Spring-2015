@@ -170,7 +170,7 @@ This schedule is subject to change depending on the interests and pace of the cl
 
 **Week 10 (4/9):** Openframeworks recap / Introduction to creative coding in javascript with P5js.
 - **Reading**: [Processing transition to P5js](https://github.com/processing/p5.js/wiki/Processing-transition)
-- **Assignment (due before following class)::** TBD
+- **Assignment (due before following class)::** Convert one of your previous Processing sketches to p5.js and post it to a github project page.  In addition to the github project page, your .html and .js source code should live inside your class github repo in the folder along with your previous code assignments.
 
 **Week 11 (4/16):** Getting things to talk: Real-time communication with websockets, openframeworks, and javascript. Clients and servers.  Using [Spacebrew](http://docs.spacebrew.cc/). 
 - **Reading**: Programming Interactivity, Chapter 12
