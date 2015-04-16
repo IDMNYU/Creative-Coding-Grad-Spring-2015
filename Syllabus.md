@@ -172,9 +172,9 @@ This schedule is subject to change depending on the interests and pace of the cl
 - **Reading**: [Processing transition to P5js](https://github.com/processing/p5.js/wiki/Processing-transition)
 - **Assignment (due before following class)::** Convert one of your previous Processing sketches to p5.js and post it to a github project page.  In addition to the github project page, your .html and .js source code should live inside your class github repo in the folder along with your previous code assignments.
 
-**Week 11 (4/16):** Getting things to talk: Real-time communication with websockets, openframeworks, and javascript. Clients and servers.  Using [Spacebrew](http://docs.spacebrew.cc/). 
+**Week 11 (4/16):** Getting things to talk: javascript. Clients and servers. 
 - **Reading**: Programming Interactivity, Chapter 12
-- **Assignment (due before following class)::** TBD
+- **Assignment (due before following class)::** Work on Final Projects.
 
 **Week 12 (4/23):** Introduction to computer vision: Implementations of OpenCV in Processing/Openframeworks.
 - **Reading**: Programming Interactivity, Chapter 14
