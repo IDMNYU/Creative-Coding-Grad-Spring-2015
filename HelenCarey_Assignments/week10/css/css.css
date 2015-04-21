@@ -1,0 +1,161 @@
+/* *************************
+PALETTE
+
+//PALETTE
+color 
+  color: #4d4d4d; /* text gray */
+  /* white = color(255,255,255), //#ffffff
+  bg = color(244,237,223), //#F4EDDF
+  blueM = color(0,133,172),  //#0085AC
+  blueF = color(87,187,214),  //#57BBD6
+  redM = color(148,15,21),  //#B53A3A
+  redF = color(231,76,60),  //#F28066
+  gold = color(244,204,103), //#F4CC67
+
+
+/************************** */
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+
+    /*border-radius: 4px;*/
+    
+    color: #4d4d4d; /* text gray */
+
+}
+
+a {
+	color: #4d4d4d;
+}
+
+body {
+	background-color: #111; /* text gray */
+	font-family: 'Josefin Sans', 'Quicksand', sans-serif; */   
+}
+
+h1 {
+	margin: 15px;
+	color: white;
+	opacity: 1;
+	float: right;
+	padding-right: 45px;
+	font-size: 3em;
+	font-weight: 500;
+}
+
+/* ======= MAIN =========== */
+#container {
+	position: relative;
+	width: 98vw;
+	margin: 0 auto;
+	
+	/*border: 1px solid lightblue; */
+}
+
+#head {
+	position: fixed;
+	top:60px;
+	width: 1200px;
+	height: 75px;
+	background-color: #555;
+	opacity: 0.5;
+	z-index: 10;
+	
+	/*border: 1px solid lightgray;*/
+}
+
+#main {
+	position: relative;
+	width: 1200px;
+	/*height: 100%;*/
+	min-height: 700px;
+    margin: 0 auto;
+    margin-top: 35px;
+	margin-bottom: 4%;
+	z-index: 1;
+	/*border: 1px solid gray;*/
+}
+
+#room {
+	position:absolute;
+	width: 1200px;
+	/*height: 100%;*/
+	min-height: 700px;
+    background-image: url("../assets/room.jpg");
+    /* background-size: cover;
+    background-repeat: no-repeat;*/
+    background-position: fixed;
+    z-index: 1;
+
+    /*
+    border: 1px solid red;
+    */
+}
+
+.room {
+	position:absolute;
+	width: 1200px;
+	/*height: 100%;*/
+	min-height: 700px;
+}
+
+
+#slider {
+	position: relative;
+	height: 700px;
+	width: 1100px;
+	margin: 0 auto;
+	z-index: 9;
+	/*background-color: red;*/
+	/*border: 1px solid red;*/
+}
+
+
+#txt {
+	position: absolute;
+	left:10px;
+	top:-5px;
+	width: 225px;
+	height: 102%;
+
+	webkit-box-shadow: 1px 0px 2px 1px rgba(120,120,120,25);
+	box-shadow: 1px 0px 2px 1px rgba(120,120,120,25);
+	border-radius: 1px;
+
+    background-image: url("../assets/txt.png");
+    opacity: 0.6;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    z-index: 8;
+}
+
+#canvas {
+	position: absolute;
+	left:347.5px;
+	top:153px;
+	height: 400px;
+	width: 720px;
+	z-index: 12;
+
+	/*border: 1px solid yellow;*/
+}
+
+
+
+
+
+
+
+
+
+
+

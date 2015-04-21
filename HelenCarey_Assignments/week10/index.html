@@ -1,0 +1,62 @@
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<!-- FONTS -->
+		<link href='http://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic' rel='stylesheet' type='text/css'>
+
+
+	<!-- STYLES -->
+  		<link rel="stylesheet" href="css/css.css">
+		
+		<style></style>
+
+
+	<!-- SCRIPTS -->
+	 	<script language="javascript" type="text/javascript" src="js/p5js/p5.js"></script>
+		<script language="javascript" src="js/p5js/p5.dom.js"></script>
+	  	<!--<script language="javascript" src="p5js/p5.sound.js"></script>-->
+	  	<script language="javascript" type="text/javascript" src="js/sketch.js"></script>
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+        <script src="https://code.jquery.com/ui/1.11.3/jquery-ui.js"></script>
+        <script> /* Attach Production jQuery libraries at end of <body> */
+      
+          $(function() {
+            $( "#txt" ).draggable({
+                containment: "#slider",
+                axis: "x"
+            });
+          }); // END fx
+		</script>
+  		
+  
+</head>
+
+<body>
+	<div id='container'>
+
+		<div id="main">
+			<div id="head">
+				<h1>Sol Lewi++</h1>
+			</div> <!-- END head -->
+
+			<div id="room">
+				<!-- <img src="assets/room.jpg" alt="room" width="1200"> <!- height="42"  -->
+				<div id="canvas">
+				</div>
+				
+				<!-- <div id="gif" class="room"><img src="assets/grumpy.gif" alt="room" width="1200"></div> -->
+			
+			</div> <!-- END room -->
+			
+			<div id="slider">
+				<div id="txt"></div>
+			</div>
+
+		</div> <!-- END main -->
+
+		
+	</div> <!-- END container -->
+
+</body>
+</html>
