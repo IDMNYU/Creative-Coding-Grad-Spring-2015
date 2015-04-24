@@ -1,16 +1,36 @@
+import processing.core.*; 
+import processing.data.*; 
+import processing.event.*; 
+import processing.opengl.*; 
+
+import gab.opencv.*; 
+import processing.video.*; 
+import java.awt.*; 
+
+import java.util.HashMap; 
+import java.util.ArrayList; 
+import java.io.File; 
+import java.io.BufferedReader; 
+import java.io.PrintWriter; 
+import java.io.InputStream; 
+import java.io.OutputStream; 
+import java.io.IOException; 
+
+public class FindEdges extends PApplet {
+
 /**
 ** based on FindEdges Example by Greg Borenstein
 ** video addition by Kevin Siwoff
 **/
-import gab.opencv.*;
-import processing.video.*;
-import java.awt.*;
+
+
+
 
 OpenCV opencv;
 Capture video; //our video capture
 PImage canny, scharr, sobel;
 
-void setup() {
+public void setup() {
   size(800, 800);
   video = new Capture(this, width /2, height/2);
   opencv = new OpenCV(this, width /2, height /2);
@@ -23,7 +43,7 @@ void setup() {
   
 }
 
-void draw() {
+public void draw() {
 
 
   opencv.loadImage(video);
@@ -50,7 +70,16 @@ void draw() {
   
 }
 
-void captureEvent(Capture c){
+public void captureEvent(Capture c){
   c.read();
 }
 
+  static public void main(String[] passedArgs) {
+    String[] appletArgs = new String[] { "FindEdges" };
+    if (passedArgs != null) {
+      PApplet.main(concat(appletArgs, passedArgs));
+    } else {
+      PApplet.main(appletArgs);
+    }
+  }
+}
